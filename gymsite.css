@@ -252,8 +252,8 @@
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
-    margin: 3% 13% 0 13%;
-    font-size: 1.125rem;
+    margin: 2% 13% 0 13%;
+    font-size: 1.13rem;
 }
 .img-text-desc{
     display: grid;
@@ -261,9 +261,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 1% 13% 0 13%;
+    margin: 0.5% 13% 0 13%;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 .second-banner{
     display: grid;
@@ -273,7 +273,7 @@
     background-color: rgba(34, 34, 34, 1);
     padding: 0 1% 0 1%;
     border-radius: 0.875rem;
-    margin: 1% 10%;
+    margin: 3% 10%;
 }
 .banner-left{
     justify-content: space-around;
@@ -291,9 +291,21 @@
     margin: 0.5% 30% 0 20%;
     color: rgba(255, 255, 255, 0.5);
 }
+.btn-left{
+    padding: 2.25% 5.8%;
+    font-size: 100%;
+    height: fit-content;
+    font-weight: 600;
+    border-radius: 42px;
+    border-color: none;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    margin: 5% 0 0 20%;
+}
 .right-pic{
     width: 70%;
     border-radius: 0.825rem;
     margin-top: 3%;
     margin-left: 5%;
+    zoom: 250%;
 }
