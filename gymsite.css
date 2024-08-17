@@ -5,7 +5,7 @@
 * {
     margin: 0 auto;
     padding: 0;
-    
+
 }
 
 .text-color {
@@ -68,7 +68,8 @@
 .bg_color {
     background-image: linear-gradient(black 1%, rgb(48, 48, 48) 54%, black 100%);
 }
-.bg_color2{
+
+.bg_color2 {
     background-color: black;
 }
 
@@ -220,34 +221,40 @@
     border-radius: 50%;
     margin: 3% 0 2% 0;
 }
-.page2{
+
+.page2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.second-title{
+
+.second-title {
     color: #FFFFFF;
     font-size: 3rem;
 }
-.second-para{
+
+.second-para {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
     margin: 2% 10% 0 10%;
 }
-.square-img{
+
+.square-img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
     margin: 3% 13% 0 13%;
 }
-.sqr-img-style{
+
+.sqr-img-style {
     justify-content: space-between;
     border-radius: 50%;
 }
-.img-text{
+
+.img-text {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
@@ -255,7 +262,8 @@
     margin: 2% 13% 0 13%;
     font-size: 1.13rem;
 }
-.img-text-desc{
+
+.img-text-desc {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
@@ -265,31 +273,37 @@
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.95rem;
 }
-.second-banner{
+
+.second-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     background-color: rgba(34, 34, 34, 1);
     border-radius: 0.875rem;
     margin: 3% 10%;
+    padding: 1.5% 0 1.5% 0;
 }
-.banner-left{
+
+.banner-left {
     justify-content: space-around;
     text-align: left;
     margin-left: 3%;
     margin-top: 3%;
 }
-.banner-left-title{
-    font-size: 3rem;
+
+.banner-left-title {
+    font-size: 3.5rem;
     font-weight: 900;
-    margin: 0.5% 20% 0 20%;
+    margin: 0 20% 0 20%;
 }
-.left-para{
-    font-size: 0.875rem;
-    margin: 0.5% 30% 0 20%;
-    color: rgba(255, 255, 255, 0.5);
+
+.left-para {
+    font-size: 0.9rem;
+    margin: 0.75% 30% 0 20%;
+    color: rgba(255, 255, 255, 0.6);
 }
-.btn-left{
+
+.btn-left {
     padding: 2.25% 5.8%;
     font-size: 100%;
     height: fit-content;
@@ -298,24 +312,139 @@
     border-color: none;
     background-color: #E6533C;
     color: #FFFFFF;
-    margin: 5% 0 0 20%;
+    margin: 3% 0 0 20%;
 }
-.right-pic{
+
+.right-pic {
     width: 70%;
     border-radius: 0.825rem;
     margin-top: 0.5%;
     margin-left: 5%;
     zoom: 250%;
 }
-.third-sec{
+
+.third-sec {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: left;
     justify-content: left;
-    align-items: left;
 }
-.third-title{
-    font-size: 3.5rem;
+
+.third-start {
     text-align: left;
+    margin-right: 35%;
+    margin-bottom: 3%;
+}
+
+.third-title {
+    font-size: 3.5rem;
     font-weight: 900;
+    margin-bottom: 1.5%;
+}
+
+.third-title-desc {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 30%;
+    line-height: 120%;
+}
+
+.multi-img {
+    max-width: 1440px;
+}
+
+.multi-img-div-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.multi-img-div-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -5%;
+    margin-left: 0.17%;
+}
+
+.img-cls {
+    width: 50%;
+    gap: 0;
+}
+
+.img-1 {
+    width: 100%;
+    height: 80%;
+}
+
+.img-2 {
+    width: 130%;
+    height: 80%;
+    margin-left: -14%;
+}
+
+.img-3 {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+
+.text-overlay-1 {
+    position: relative;
+    bottom: 8.5%;
+    left: 22%;
+    color: #111111;
+    font-weight: 600;
+}
+
+.text-overlay-2 {
+    position: relative;
+    bottom: 65%;
+    left: 5%;
+    color: #dbdbdb;
+    font-weight: 600;
+}
+
+.text-overlay-3 {
+    position: relative;
+    bottom: 8.5%;
+    left: 50%;
+    color: #000000af;
+    font-weight: 600;
+}
+
+.img-4 {
+    width: 120%;
+    height: 70%;
+    margin-left: 4.5%;
+}
+
+.img-5 {
+    width: 100%;
+    height: 70%;
+    margin-left: 15%;
+}
+
+.img-6 {
+    width: 110%;
+    height: 70%;
+    margin-left: -11.5%;
+}
+.text-overlay-4 {
+    position: relative;
+    bottom: 50%;
+    left: 90%;
+    color: #000000;
+    font-weight: 600;
+}
+.text-overlay-5 {
+    position: relative;
+    bottom: 8.5%;
+    left: 22%;
+    color: #ffffff;
+    font-weight: 600;
+}
+.text-overlay-6 {
+    position: relative;
+    bottom: 60%;
+    color: #111111;
+    font-weight: 600;
 }
