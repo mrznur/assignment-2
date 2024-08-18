@@ -5,7 +5,7 @@
 * {
     margin: 0 auto;
     padding: 0;
-
+    letter-spacing: 0.35px;
 }
 
 .text-color {
@@ -71,6 +71,12 @@
 
 .bg_color2 {
     background-color: black;
+}
+
+.ash-bg {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .bg-img {
@@ -354,36 +360,33 @@
 }
 
 .multi-img-div-1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
 }
 
 .multi-img-div-2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: -5%;
-    margin-left: 0.17%;
+    display: flex;
+    margin-top: -9%;
+    margin-left: -1%;
 }
 
 .img-cls {
     width: 50%;
-    gap: 0;
 }
 
 .img-1 {
     width: 100%;
-    height: 80%;
+    height: 70%;
 }
 
 .img-2 {
     width: 130%;
-    height: 80%;
+    height: 70%;
     margin-left: -14%;
 }
 
 .img-3 {
     width: 80%;
-    height: 80%;
+    height: 70%;
     margin-left: 10%;
 }
 
@@ -414,7 +417,7 @@
 .img-4 {
     width: 120%;
     height: 70%;
-    margin-left: 4.5%;
+    margin-left: 3.5%;
 }
 
 .img-5 {
@@ -424,10 +427,11 @@
 }
 
 .img-6 {
-    width: 110%;
+    width: 105%;
     height: 70%;
-    margin-left: -11.5%;
+    margin-left: -13.21%;
 }
+
 .text-overlay-4 {
     position: relative;
     bottom: 50%;
@@ -435,6 +439,7 @@
     color: #000000;
     font-weight: 600;
 }
+
 .text-overlay-5 {
     position: relative;
     bottom: 8.5%;
@@ -442,9 +447,169 @@
     color: #ffffff;
     font-weight: 600;
 }
+
 .text-overlay-6 {
     position: relative;
-    bottom: 60%;
+    bottom: 8%;
     color: #111111;
     font-weight: 600;
 }
+
+.bmi-calc {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: left;
+    /* align-items: center; */
+    text-align: left;
+}
+
+.bmi-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 25%;
+}
+
+.desc {
+    font-size: 1rem;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 25%;
+    margin-top: 0.6%;
+    width: 40%;
+    margin-bottom: 4%;
+}
+
+.calc-head {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 900%;
+    color: #ffffffc2;
+    margin-top: 7%;
+}
+
+.table-position {
+    margin-left: 10%;
+}
+
+table {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: separate;
+    border-spacing: 0px;
+    width: 95%;
+    margin-top: 5%;
+}
+
+thead {
+    font-size: 1.5rem;
+    font-weight: 50%;
+}
+
+th,
+td {
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 3% 5%;
+}
+
+.ash {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.parent-bmi-left {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.bmi-form-head {
+    text-align: left;
+    font-size: 1.75rem;
+    font-weight: 900%;
+    color: #ffffffc2;
+    margin-top: 3%;
+    margin-bottom: 0.5%;
+}
+
+.bmi-form-des {
+    width: 70%;
+    margin-left: 16.5%;
+    margin-bottom: 1.5%;
+    text-align: left;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-class {
+    display: flex;
+}
+
+input[type="text"],
+textarea {
+    font-size: 130%;
+    width: 18rem;
+    height: 2rem;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: block;
+    padding: 12px 25px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.first-form {
+    margin-left: -2%;
+}
+
+.second-form {
+    margin-left: 2.5%;
+}
+
+#script-2 {
+    width: 40.4rem;
+}
+
+.last-btn {
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+
+.btn-last {
+    border-radius: 2.6rem;
+    border-color: none;
+    background-color: #E6533C;
+    font-size: 1.75rem;
+    width: 190%;
+    height: 160%;
+    margin-left: -235%;
+}
+
+.second-last {
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.second-last-title {
+    font-size: 3.25rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.second-last-para {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    text-align: center;
+}
+
+.trainer-class-1 {
+    width: auto;
+    height: 50%;
+}
+.team-img-1, .team-img-2, .team-img-3, .team-img-4, .team-img-5, .team-img-6{
+    height: 100%;
+}
+.trainer-class-2{
+    width: auto;
+    height: 50%;
+}
+
