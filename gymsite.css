@@ -599,17 +599,92 @@ textarea {
     color: rgba(255, 255, 255, 0.5);
     width: 40%;
     text-align: center;
+    margin-bottom: 2%;
 }
 
 .trainer-class-1 {
     width: auto;
     height: 50%;
+    margin-top: 4%;
 }
-.team-img-1, .team-img-2, .team-img-3, .team-img-4, .team-img-5, .team-img-6{
+.fourth-banner{
+    display: flex;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 1.5rem;
+    height: 80%;
+    width: 70%;
+
+}
+
+.team-img-1,
+.team-img-2,
+.team-img-3 {
     height: 100%;
+    border-radius: 1rem;
+    justify-content: space-evenly;
 }
-.trainer-class-2{
+
+.trainer-class-2 {
     width: auto;
     height: 50%;
 }
 
+.footer {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    margin-left: -10%;
+}
+
+.fitness {
+    margin-top: 5%;
+    font-size: 5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+    text-align: center;
+}
+
+.footer-para {
+    width: 40%;
+    font-size: 0.9rem;
+    /* text-align: left; */
+    margin-left: 32.5%;
+    margin-right: 15%;
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.right-footer-side {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: -5%;
+    margin-top: 3%;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.right-side-style {
+    margin-top: 5%;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.45);
+}
+.footer-margin{
+    margin-bottom: 7%;
+}
+.divider{
+    margin-top: 5%;
+    margin-left: -220%;
+    width: 420%;
+    height: 5%;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.35);
+    display: inline-block;
+}
+.reserve{
+    font-size: 1.25rem;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 50%;
+    color: rgba(255, 255, 255, 0.35);
+}
