@@ -89,7 +89,7 @@
 }
 
 .fit {
-    font-size: 36px;
+    font-size: 3.5rem;
     font-style: italic;
     font-weight: 800;
     margin: 0 auto;
@@ -164,7 +164,7 @@
     font-weight: 600;
     border-radius: 42px;
     border: 2px solid white;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
     margin-right: 22%;
 }
@@ -176,7 +176,7 @@
     width: fit-content;
     color: #FFFFFF;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.09);
+    background-color: rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -201,7 +201,7 @@
     width: fit-content;
     color: #FFFFFF;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.15);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -483,7 +483,7 @@
     text-align: center;
     font-size: 1.75rem;
     font-weight: 900%;
-    color: #ffffffc2;
+    color: #ffffffda;
     margin-top: 7%;
 }
 
@@ -607,14 +607,14 @@ textarea {
     height: 50%;
     margin-top: 4%;
 }
-.fourth-banner{
+
+.fourth-banner {
     display: flex;
     align-items: center;
     background-color: rgba(34, 34, 34, 1);
     border-radius: 1.5rem;
     height: 80%;
     width: 70%;
-
 }
 
 .team-img-1,
@@ -669,10 +669,12 @@ textarea {
     font-size: 1.25rem;
     color: rgba(255, 255, 255, 0.45);
 }
-.footer-margin{
+
+.footer-margin {
     margin-bottom: 7%;
 }
-.divider{
+
+.divider {
     margin-top: 5%;
     margin-left: -220%;
     width: 420%;
@@ -681,10 +683,369 @@ textarea {
     background-color: rgba(255, 255, 255, 0.35);
     display: inline-block;
 }
-.reserve{
+
+.reserve {
     font-size: 1.25rem;
     margin-top: -1%;
     margin-bottom: 2%;
     margin-left: 50%;
     color: rgba(255, 255, 255, 0.35);
+}
+
+.bar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .btn-body {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fit {
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+
+    .bar-menu {
+        display: contents;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner {
+        margin-left: 0%;
+    }
+
+    .banner-head {
+        font-size: 3.25rem;
+        width: 100%;
+
+    }
+
+    .banner-des {
+        text-align: left;
+        margin-left: 8%;
+        width: 70%;
+        line-height: 1.3rem;
+    }
+
+    .two-btn {
+        gap: 3%;
+    }
+
+    .btn-1 {
+        padding: 2% 10%;
+        height: fit-content;
+        margin-left: 10%;
+    }
+
+    .btn-2 {
+        padding: 2% 10%;
+        height: fit-content;
+        margin-right: 3%;
+    }
+
+    .bg-img {
+        margin-left: 10%;
+    }
+
+    .shadow-btn1 {
+        position: relative;
+        right: -40%;
+        top: -80%;
+        padding: 2.5% 6%;
+    }
+
+    .shadow-btn2 {
+        position: relative;
+        right: 20%;
+        top: -500%;
+    }
+
+    .second-title {
+        font-size: 2.5rem;
+    }
+
+    .square-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sqr-img-style {
+        margin-bottom: 50%;
+    }
+
+    .img-text-head-1 {
+        margin-top: -2050%;
+        margin-left: 95%;
+    }
+
+    .img-text-head-2 {
+        margin-top: -3120%;
+        margin-left: 55%;
+    }
+
+    .img-text-head-3 {
+        margin-top: -1050%;
+        margin-left: -50%;
+    }
+
+    .img-text-head-4 {
+        margin-top: -320%;
+        margin-left: -200%;
+    }
+
+    .img-text-desc-1 {
+        margin-top: -2750%;
+        margin-left: 45%;
+        width: 300%;
+    }
+
+    .img-text-desc-2 {
+        margin-top: -1950%;
+        margin-left: -55%;
+        width: 300%;
+    }
+
+    .img-text-desc-3 {
+        margin-top: -1050%;
+        margin-left: -145%;
+        width: 300%;
+    }
+
+    .img-text-desc-4 {
+        margin-top: -200%;
+        margin-left: -245%;
+        width: 300%;
+    }
+
+    .second-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner-left {
+        margin-left: -8%;
+    }
+
+    .banner-left-title {
+        font-size: 2.4rem;
+        width: 80%;
+        margin-bottom: 2%;
+    }
+
+    .left-para {
+        font-size: 0.8rem;
+        width: 60%;
+    }
+
+    .btn-left {
+        padding: 3.5% 10%;
+        margin-bottom: 3%;
+    }
+
+    .banner-right {
+        margin-left: 2%;
+        width: 120%;
+        margin-bottom: 3%;
+    }
+
+    .third-sec {
+        margin-left: 10%;
+    }
+
+    .third-title {
+        font-size: 2.3rem;
+        margin-bottom: 3%;
+    }
+
+    .third-title-desc {
+        width: 130%;
+        line-height: 150%;
+        margin-bottom: 5%;
+    }
+
+    .multi-img-div-1,
+    .multi-img-div-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-wrap-1 {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .img-wrap-2 {
+        width: 70%;
+        margin-right: 20%;
+    }
+
+    .img-wrap-3,
+    .img-wrap-6 {
+        display: none;
+    }
+
+    .img-wrap-4 {
+        margin-top: -2.5%;
+        width: 86%;
+        height: 90%;
+        margin-left: 9%;
+    }
+
+    .img-wrap-5 {
+        margin-top: -2.5%;
+        width: 79.5%;
+        height: 90%;
+        margin-right: 30.8%;
+    }
+
+    .text-overlay-1 {
+        position: relative;
+        bottom: 15.5%;
+        left: 5%;
+        font-size: 0.75rem;
+    }
+
+    .text-overlay-2 {
+        position: relative;
+        bottom: 15.5%;
+        left: 5%;
+        font-size: 0.75rem;
+    }
+
+    .text-overlay-4 {
+        color: rgba(0, 0, 0, 0.733);
+        position: relative;
+        bottom: 55%;
+        left: 69%;
+        font-size: 0.75rem;
+    }
+
+    .text-overlay-5 {
+        position: relative;
+        bottom: 18.5%;
+        left: 16%;
+        font-size: 0.75rem;
+    }
+
+    .bmi-calc {
+        margin-left: -20%;
+    }
+
+    .bmi-title {
+        font-size: 2.5rem;
+    }
+
+    .desc {
+        font-size: 0.9rem;
+        width: 65%;
+        line-height: 150%;
+    }
+
+    .bmi-table-form {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .table-position {
+        width: 60%;
+        margin-left: 2%;
+    }
+
+    .calc-head {
+        font-size: 1.3rem;
+        text-align: left;
+        margin-left: 2.5%;
+    }
+
+    .parent-bmi-left {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bmi-form-head {
+        margin-left: 3%;
+        font-size: 1.3rem;
+        color: #ffffffda;
+        margin-bottom: 1%;
+    }
+
+    .bmi-form-des {
+        margin-left: 3%;
+        font-size: 0.8rem;
+        width: 55%;
+        margin-bottom: 3%;
+        line-height: 130%;
+    }
+
+    .form-class {
+        margin-left: 4%;
+    }
+
+    .first-form {}
+
+    .second-form {
+        margin-left: 5%;
+    }
+
+    #script-2 {
+        margin-left: -26%;
+        width: 121%;
+    }
+
+    input[type="text"],
+    textarea {
+        font-size: 110%;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 0.1);
+        display: block;
+        padding: 12px 25px;
+        margin-bottom: 20px;
+        border: none;
+    }
+    .last-btn{
+        margin-left: 70%;
+    }
+    .second-last-title{
+        font-size: 1.7rem;
+        margin-left: 3%;
+    }
+    .second-last-para{
+        font-size: 0.95rem;
+        line-height: 140%;
+        margin-left: 3%;
+        text-align: left;
+        margin-bottom: 4%;
+    }
+    .fourth-banner{
+        width: auto;
+    }
+    .fourth-banner {
+        display: flex;
+        align-items: center;
+        background-color: rgba(34, 34, 34, 1);
+        border-radius: 1.85rem;
+        padding: 3% ;
+    }
+     .team-img-1, .team-img-2, .team-img-3{
+        width: 80%;
+        height: auto;
+     }
+     .team-img-1{
+ 
+     }
 }
