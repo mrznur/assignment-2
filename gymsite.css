@@ -459,7 +459,6 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: left;
-    /* align-items: center; */
     text-align: left;
 }
 
@@ -599,35 +598,60 @@ textarea {
     color: rgba(255, 255, 255, 0.5);
     width: 40%;
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+.fourth-banner-up {
+    margin-bottom: -8%;
+}
+
+.second-last img {
+    width: 100%;
+    height: 50%;
+    filter: brightness(90%);
+    border-radius: 15px;
 }
 
 .trainer-class-1 {
-    width: auto;
-    height: 50%;
-    margin-top: 4%;
-}
-
-.fourth-banner {
-    display: flex;
-    align-items: center;
-    background-color: rgba(34, 34, 34, 1);
-    border-radius: 1.5rem;
-    height: 80%;
-    width: 70%;
-}
-
-.team-img-1,
-.team-img-2,
-.team-img-3 {
-    height: 100%;
-    border-radius: 1rem;
-    justify-content: space-evenly;
+    width: 150%;
+    height: 120%;
+    margin-left: -10%;
+    margin-right: -5%;
 }
 
 .trainer-class-2 {
-    width: auto;
-    height: 50%;
+    width: 150%;
+    height: 120%;
+    margin-left: 10%;
+    margin-right: -4%;
+}
+
+.trainer-class-3 {
+    width: 150%;
+    height: 120%;
+    margin-left: 9%;
+    margin-right: -10%;
+}
+
+.trainer-class-4 {
+    width: 80%;
+    height: 95%;
+    margin-left: -2%;
+    margin-right: -5%;
+}
+
+.trainer-class-5 {
+    width: 81%;
+    height: 95%;
+    margin-left: 9%;
+    margin-right: -5%;
+}
+
+.trainer-class-6 {
+    width: 81%;
+    height: 95%;
+    margin-left: 9%;
+    margin-right: -3%;
 }
 
 .footer {
@@ -648,7 +672,6 @@ textarea {
 .footer-para {
     width: 40%;
     font-size: 0.9rem;
-    /* text-align: left; */
     margin-left: 32.5%;
     margin-right: 15%;
     margin-top: 2%;
@@ -697,6 +720,11 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+
     .btn-body {
         display: none;
     }
@@ -1017,35 +1045,78 @@ textarea {
         margin-bottom: 20px;
         border: none;
     }
-    .last-btn{
+
+    .last-btn {
         margin-left: 70%;
     }
-    .second-last-title{
+
+    .second-last-title {
         font-size: 1.7rem;
         margin-left: 3%;
     }
-    .second-last-para{
+
+    .second-last-para {
         font-size: 0.95rem;
         line-height: 140%;
         margin-left: 3%;
         text-align: left;
         margin-bottom: 4%;
+        margin-right: 2%;
     }
-    .fourth-banner{
-        width: auto;
+    .fourth-banner-up{
+        display: grid;
+        grid-template-columns: 1fr;
     }
-    .fourth-banner {
-        display: flex;
-        align-items: center;
-        background-color: rgba(34, 34, 34, 1);
-        border-radius: 1.85rem;
-        padding: 3% ;
+    .fourth-banner-down{
+        display: grid;
+        grid-template-columns: 1fr;
     }
-     .team-img-1, .team-img-2, .team-img-3{
-        width: 80%;
-        height: auto;
-     }
-     .team-img-1{
- 
-     }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fitness-footer {
+        margin-left: -5%;
+    }
+
+    .footer-para {
+        margin-left: 17%;
+        line-height: 140%;
+        width: 60%;
+    }
+
+    .right-footer-side {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .right-footer-1 {
+        margin-left: -14%;
+        margin-bottom: 5%;
+    }
+
+    .right-footer-2 {
+        margin-left: -14%;
+    }
+
+    .reserve {
+        margin-top: 2%;
+        font-size: 0.9rem;
+        margin-left: 30%;
+    }
+
+    .divider {
+
+        width: 370%;
+        height: 5%;
+        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.35);
+        display: inline-block;
+    }
+
+    .second-last img {
+        width: 50%;
+    }
 }
